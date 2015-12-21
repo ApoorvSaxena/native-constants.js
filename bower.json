@@ -1,0 +1,22 @@
+{
+  "name": "native-constants",
+  "description": "Access unpolluted Native Constants in JavaScript",
+  "main": "native-constants.min.js",
+  "author": "Apoorv Saxena",
+  "main": "dist/native-constants.min.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "CONTRIBUTING.md",
+    "Gruntfile.js"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "constants",
+    "javascript",
+    "library"
+  ]
+}
