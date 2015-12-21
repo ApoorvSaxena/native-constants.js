@@ -1,4 +1,4 @@
-native-constants.js
+native-constants.js [![npm version](https://badge.fury.io/js/native-constants.svg)](https://badge.fury.io/js/native-constants)
 =====
 *Access unpolluted Native Constants in JavaScript*
 ***
