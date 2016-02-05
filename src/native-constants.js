@@ -1,7 +1,7 @@
 ;(function () {
   'use strict';
 
-  NativeConstants = (function() {
+  var _NativeConstants = (function() {
 
     var iframe,
         iframeContentWindow;
@@ -30,17 +30,17 @@
   // open to the world.
   // commonjs
   if( typeof exports === 'object' )  {
-    module.exports = NativeConstants;
+    module.exports = _NativeConstants;
   }
   // AMD module
   else if( typeof define === 'function' && define.amd ) {
     define('NativeConstants', function () {
-      return NativeConstants;
+      return _NativeConstants;
     });
   }
   // Browser global
   else {
-    window.NativeConstants = NativeConstants;
+    window.NativeConstants = _NativeConstants;
   }
 
 })();
