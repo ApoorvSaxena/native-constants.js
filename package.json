@@ -2,7 +2,7 @@
   "name": "native-constants",
   "title": "native-constants.js",
   "description": "A light-weight library to access unpolluted Native Constants in JavaScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "",
   "author": {
     "name": "Apoorv Saxena",
