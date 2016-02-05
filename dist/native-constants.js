@@ -1,10 +1,10 @@
-/*! native-constants.js - v0.0.1 - 2016-02-05
+/*! native-constants.js - v0.0.3 - 2016-02-05
 * Copyright (c) 2016 Apoorv Saxena; Licensed MIT */
 
 ;(function () {
   'use strict';
 
-  NativeConstants = (function() {
+  var _NativeConstants = (function() {
 
     var iframe,
         iframeContentWindow;
@@ -33,17 +33,17 @@
   // open to the world.
   // commonjs
   if( typeof exports === 'object' )  {
-    module.exports = NativeConstants;
+    module.exports = _NativeConstants;
   }
   // AMD module
   else if( typeof define === 'function' && define.amd ) {
     define('NativeConstants', function () {
-      return NativeConstants;
+      return _NativeConstants;
     });
   }
   // Browser global
   else {
-    window.NativeConstants = NativeConstants;
+    window.NativeConstants = _NativeConstants;
   }
 
 })();
