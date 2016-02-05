@@ -1,7 +1,7 @@
 ;(function () {
   'use strict';
 
-  var NativeConstants = (function() {
+  NativeConstants = (function() {
 
     var iframe,
         iframeContentWindow;
@@ -34,7 +34,7 @@
   }
   // AMD module
   else if( typeof define === 'function' && define.amd ) {
-    define(function () {
+    define('NativeConstants', function () {
       return NativeConstants;
     });
   }
