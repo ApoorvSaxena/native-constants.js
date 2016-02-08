@@ -1,9 +1,11 @@
-/*! native-constants.js - v0.0.3 - 2016-02-05
+/*! native-constants.js - v0.0.4 - 2016-02-08
 * Copyright (c) 2016 Apoorv Saxena; Licensed MIT */
 
 ;(function () {
   'use strict';
 
+  // AMD Cleans converts define('NativeConstants', to NativeConstant =
+  // which may conflict with the scope variable defined by require at the top
   var _NativeConstants = (function() {
 
     var iframe,

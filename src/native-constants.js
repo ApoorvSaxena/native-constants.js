@@ -1,6 +1,8 @@
 ;(function () {
   'use strict';
 
+  // AMD Cleans converts define('NativeConstants', to NativeConstant =
+  // which may conflict with the scope variable defined by require at the top
   var _NativeConstants = (function() {
 
     var iframe,
